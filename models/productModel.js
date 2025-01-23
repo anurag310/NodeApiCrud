@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const productSchema = mongoose.Schema(
-    {
+    { //Add ci
         name:{
             type:String,
             required:[true,"Please enetr a Product name"]
